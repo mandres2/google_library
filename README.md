@@ -59,7 +59,7 @@ As a Full Stack Developer, the primary motive was to build a full-stack applicat
 
 ## npm Packages Used
 
-:black_small_square: mysql v2.17.1
+:black_small_square: mongoose
 <br>
 :black_small_square: express
 <br>
@@ -99,32 +99,3 @@ As a Full Stack Developer, the primary motive was to build a full-stack applicat
 <br>
 :heavy_check_mark:
 <br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
