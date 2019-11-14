@@ -1,3 +1,4 @@
+// Import React dependencies
 import React, { Component } from "react";
 import Jumbotron from "../components/Jumbotron";
 import Card from "../components/Card";
@@ -7,6 +8,7 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
+// these lines of code are used to set up the state for the application.
 class Saved extends Component {
   state = {
     books: []
@@ -30,6 +32,8 @@ class Saved extends Component {
     API.deleteBook(id).then(res => this.getSavedBooks());
   };
 
+
+  // render objects via JSX format.
   render() {
     return (
       <Container>
@@ -79,5 +83,5 @@ class Saved extends Component {
     );
   }
 }
-
+// export default so file can be used elsewhere in application.
 export default Saved;

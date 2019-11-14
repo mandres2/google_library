@@ -26,7 +26,7 @@ class Home extends Component {
       [name]: value
     });
   };
-  // This is a declared function that is binded to a => method where the API is imported
+  // This is a declared function that is bound to a => method where the API is imported
   getBooks = () => {
     API.getBooks(this.state.q)
       .then(res =>
@@ -34,7 +34,7 @@ class Home extends Component {
           books: res.data
         })
       )
-      // .catch() method is binded to the setState method with a fat arrow function
+      // .catch() method is bound to the setState method with a fat arrow function and will throw an error message if the user's search request did not find any books.
       .catch(() =>
         this.setState({
           books: [],
@@ -43,15 +43,17 @@ class Home extends Component {
       );
   };
 
-  // handleFormSubmit is the a declared is an event that where the an event is declared with an arrow function and preventDefault prevents the page from refreshing / reloading and it will obtain the books the user inputs into the form.
+  // handleFormSubmit is a declared event binded to an arrow function and preventDefault prevents the page from refreshing / reloading and it will obtain the books the user inputs into the form.
   handleFormSubmit = event => {
     event.preventDefault();
     this.getBooks();
   };
 
+  // handleBookSave is declared and set to equal to an id band bounded to an arrow function. A variable named book is declared and the concatenated to the state and a find method where book.id is equal to the id.
   handleBookSave = id => {
     const book = this.state.books.find(book => book.id === id);
 
+    // Concatenate API to saveBook function and set the target parameters.
     API.saveBook({
       googleId: book.id,
       title: book.volumeInfo.title,
@@ -63,6 +65,7 @@ class Home extends Component {
     }).then(() => this.getBooks());
   };
 
+  // Render the objects utilizing JSX format.
   render() {
     return (
       <Container>
@@ -122,4 +125,5 @@ class Home extends Component {
   }
 }
 
+// export so the .js file can be used elsewhere.
 export default Home;

@@ -1,6 +1,8 @@
+// Import Mongo dependencies
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Create a new schema called: bookSchema
 const bookSchema = new Schema({
   title: { type: String, required: true },
   subtitle: { type: String },
@@ -11,6 +13,7 @@ const bookSchema = new Schema({
   googleId: { type: String, required: true, unique: true }
 });
 
+// declare a variable named Book and let it equal to the model.
 const Book = mongoose.model("Book", bookSchema);
 
 module.exports = Book;

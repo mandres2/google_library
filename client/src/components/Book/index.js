@@ -1,8 +1,10 @@
+// import react dependencies
 import React from "react";
 import { ListItem } from "../List";
 import { Row, Col } from "../Grid";
 import "./style.css";
 
+// This creates a function called book and returns back the Book Card, that contains the data information of the searched book.
 function Book({ title, subtitle, authors, link, description, image, Button }) {
   return (
     <ListItem>
@@ -37,4 +39,5 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
   );
 }
 
+// export file to be used elsewhere in application
 export default Book;

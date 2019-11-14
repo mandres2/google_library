@@ -1,5 +1,7 @@
+// import React dependencies
 import React from "react";
 
+// Create a function called card that renders that will hold HTML elements.
 function Card({ icon, title, children }) {
   return (
     <div className="card mt-4">
@@ -15,4 +17,5 @@ function Card({ icon, title, children }) {
   );
 }
 
+// exporting file to be used elsewhere in the application
 export default Card;

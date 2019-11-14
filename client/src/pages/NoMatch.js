@@ -1,7 +1,9 @@
+// Import React dependencies
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
 
+// Create a function called: NoMatch and render client elements vis JSX format.
 function NoMatch() {
   return (
     <Container fluid>
@@ -21,4 +23,5 @@ function NoMatch() {
   );
 }
 
+// export so that js files to be imported elsewhere.
 export default NoMatch;
