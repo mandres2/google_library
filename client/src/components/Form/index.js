@@ -1,5 +1,9 @@
+// import React dependencies
 import React from "react";
 
+/* create a Function called Form and set target parameters: q, handleInputChange, handleFormSubmit
+
+*/
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
     <form>
@@ -12,7 +16,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={q}
-          placeholder="Ready Player One"
+          placeholder="Search Book Title Here"
           name="q"
           onChange={handleInputChange}
           required

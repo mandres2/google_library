@@ -1,3 +1,6 @@
+// import Axios dependencies
+/* Recap: Make XMLHttpRequest from the browsers
+Make https requests from node.js*/
 import axios from "axios";
 
 export default {
