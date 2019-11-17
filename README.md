@@ -4,8 +4,7 @@ Integrated React as the View layer into a full-stack (MERN) web application usin
 ![alt text](client/public/images/tumblr_p64a213IRe1twrbr9o1_500.gif)
 
 <h3>What is this application?</h3>
-This application was primarily designed so that it utilizes a MongoDB and Node.js to interact with one another in a React environment.
-
+This application was primarily to enable Google users to search books by hitting the Google API and saving their selected books to their personal Google accounts, wherever, whenever.
 
 ## Motive
 As a Full Stack Developer, the primary motive was to build a full-stack application by utilizing an ORM methodology and establishing a MVC framework. Exerting these types of practices provides an organized/clean environment and allows other developers to maneuver around the code with ease.
@@ -26,14 +25,13 @@ As a Full Stack Developer, the primary motive was to build a full-stack applicat
 <br>
 :black_small_square: Heroku - Container-based cloud Platform as a Service (PaaS). Heroku enables developers to build, run, and operate applications entirely in the cloud.
 <br>
-:black_small_square: React
-
-
-## Code Explanation
+:black_small_square: React (Version 16.12.0)
 
 
 ## How To Use The Application
-
+1. Simply on the search bar, type in the selected book and click search or press enter.
+2. View or save book via personal Google user ID.
+  a. If you do not have a Google user ID, you can simply create an account by signing up for: Gmail.
 
 ## Deployment
 
