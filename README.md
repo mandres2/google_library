@@ -1,8 +1,10 @@
 # google_library
 Integrated React as the View layer into a full-stack (MERN) web application using the MVC paradigm. Deployed via Heroku.
 
+![alt text](client/public/images/tumblr_p64a213IRe1twrbr9o1_500.gif)
+
 <h3>What is this application?</h3>
-This application was primarily designed so that
+This application was primarily designed so that it utilizes a MongoDB and Node.js to interact with one another in a React environment.
 
 
 ## Motive
@@ -49,11 +51,11 @@ As a Full Stack Developer, the primary motive was to build a full-stack applicat
 <br>
 :black_small_square: Google Chrome v77.0.3865.90(Windows)
 <br>
-:black_small_square: Node.js v12.9.0
+:black_small_square: Node.js v12.11.0
 <br>
 :black_small_square: ShareX v12.4.1 - Screen Record User Functionality and converts to GIFs
 <br>
-:black_small_square: Adobe XD - Created wireframe for HTML layout.
+:black_small_square: Adobe XD - Created wire-frame for HTML layout.
 <br>
 :black_small_square: Adobe After-Effects - Edit GIfs
 
@@ -63,13 +65,9 @@ As a Full Stack Developer, the primary motive was to build a full-stack applicat
 <br>
 :black_small_square: express
 <br>
-:black_small_square: body-parser v1.19.0 - Node path middleware.
+:black_small_square: mongoose v5.7.11
 <br>
-:black_small_square: path v0.12.7 - NodeJS 'path' module
-<br>
-:black_small_square: sequelize
-<br>
-:black_small_square: react
+:black_small_square: react v16.12.0
 
 ## Author
 
@@ -89,42 +87,3 @@ As a Full Stack Developer, the primary motive was to build a full-stack applicat
 <br>
 
 * <b>University of Washington</b>
-
-## Progress Log:
-<br>
-
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
-<br>
-:heavy_check_mark:
